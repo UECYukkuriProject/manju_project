@@ -1,2 +1,2 @@
-# manju_project  
+# 饅頭プロジェクト
 
