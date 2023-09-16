@@ -14,14 +14,20 @@
       }
     },
     {
-      "name": "Maxtoolrecipe",
-      "type": "recipe",
+      "name": "MaxToolgun",
+      "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "maxtoolrecipe",
+      "registry_name": "max_toolgun",
       "metadata": {
         "files": [
-          "src/main/resources/data/manju_project/recipes/maxtoolrecipe.json"
+          "src/main/java/net/mcreator/manjuproject/procedures/MaxToolgunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
       }
     }

@@ -8,7 +8,7 @@ version="1.0.0"
 displayName="饅頭プロジェクト"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="yokohama, MCreator"
+authors="yokohama, MCreator,TRUENO"
 
 [[dependencies.manju_project]]
     modId="minecraft"

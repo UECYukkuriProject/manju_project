@@ -1,37 +1,9 @@
 {
-  "mod_elements": [
-    {
-      "name": "MaxTool",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "max_tool",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/manju_project/models/item/max_tool.json",
-          "src/main/java/net/mcreator/manjuproject/item/MaxToolItem.java"
-        ]
-      }
-    },
-    {
-      "name": "Maxtoolrecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "maxtoolrecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/manju_project/recipes/maxtoolrecipe.json"
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "item.manju_project.max_tool": "Max Tool"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",

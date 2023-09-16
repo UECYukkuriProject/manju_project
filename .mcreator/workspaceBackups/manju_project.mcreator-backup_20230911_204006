@@ -12,18 +12,6 @@
           "src/main/java/net/mcreator/manjuproject/item/MaxToolItem.java"
         ]
       }
-    },
-    {
-      "name": "Maxtoolrecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "maxtoolrecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/manju_project/recipes/maxtoolrecipe.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
