@@ -3,6 +3,7 @@
     {
       "name": "MaxTool",
       "type": "tool",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "max_tool",
@@ -24,13 +25,30 @@
           "src/main/resources/data/manju_project/recipes/maxtoolrecipe.json"
         ]
       }
+    },
+    {
+      "name": "Marishablock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marishablock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/manju_project/blockstates/marishablock.json",
+          "src/main/resources/assets/manju_project/models/block/marishablock.json",
+          "src/main/resources/assets/manju_project/models/item/marishablock.json",
+          "src/main/java/net/mcreator/manjuproject/block/MarishablockBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.manju_project.max_tool": "Max Tool"
+      "item.manju_project.max_tool": "Max Tool",
+      "block.manju_project.marishablock": "Marishablock"
     }
   },
   "foldersRoot": {

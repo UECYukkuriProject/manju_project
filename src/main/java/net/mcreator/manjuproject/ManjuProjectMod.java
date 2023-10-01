@@ -16,7 +16,21 @@ package net.mcreator.manjuproject;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.minecraftforge.network.simple.SimpleChannel;
+import net.minecraftforge.network.NetworkRegistry;
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.event.TickEvent;
+import net.minecraftforge.common.MinecraftForge;
+
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.FriendlyByteBuf;
+
 import net.mcreator.manjuproject.init.ManjuProjectModItems;
+import net.mcreator.manjuproject.init.ManjuProjectModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -37,6 +51,7 @@ public class ManjuProjectMod {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		ManjuProjectModBlocks.REGISTRY.register(bus);
 		ManjuProjectModItems.REGISTRY.register(bus);
 
 	}
