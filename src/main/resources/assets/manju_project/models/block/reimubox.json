@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "manju_project:blocks/reimublock",
+    "up": "manju_project:blocks/reimublock",
+    "north": "manju_project:blocks/reimublock",
+    "east": "manju_project:blocks/reimublock",
+    "south": "manju_project:blocks/reimublock",
+    "west": "manju_project:blocks/reimublock",
+    "particle": "manju_project:blocks/reimublock"
+  },
+  "render_type": "solid"
+}

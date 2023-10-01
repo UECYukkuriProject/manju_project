@@ -1,3 +1,6 @@
 {
-  "item.manju_project.max_tool": "Max Tool"
+  "block.manju_project.reimubox": "Reimubox",
+  "item.manju_project.max_tool": "Max Tool",
+  "entity.manju_project.reimudayon": "Reimudayon",
+  "item.manju_project.reimudayon_spawn_egg": "Reimudayon Spawn Egg"
 }

@@ -3,6 +3,7 @@
     {
       "name": "MaxTool",
       "type": "tool",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "max_tool",
@@ -24,13 +25,31 @@
           "src/main/resources/data/manju_project/recipes/maxtoolrecipe.json"
         ]
       }
+    },
+    {
+      "name": "Reimudayon",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reimudayon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manjuproject/client/renderer/ReimudayonRenderer.java",
+          "src/main/resources/data/manju_project/forge/biome_modifier/reimudayon_biome_modifier.json",
+          "src/main/resources/assets/manju_project/models/item/reimudayon_spawn_egg.json",
+          "src/main/java/net/mcreator/manjuproject/entity/ReimudayonEntity.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.manju_project.max_tool": "Max Tool"
+      "item.manju_project.max_tool": "Max Tool",
+      "entity.manju_project.reimudayon": "Reimudayon",
+      "item.manju_project.reimudayon_spawn_egg": "Reimudayon Spawn Egg"
     }
   },
   "foldersRoot": {

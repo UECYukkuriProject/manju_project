@@ -30,6 +30,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.manjuproject.init.ManjuProjectModItems;
+import net.mcreator.manjuproject.init.ManjuProjectModEntities;
+import net.mcreator.manjuproject.init.ManjuProjectModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -50,7 +52,9 @@ public class ManjuProjectMod {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		ManjuProjectModBlocks.REGISTRY.register(bus);
 		ManjuProjectModItems.REGISTRY.register(bus);
+		ManjuProjectModEntities.REGISTRY.register(bus);
 
 	}
 
