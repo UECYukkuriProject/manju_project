@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "manju_project:reimu_block"
+    }
+  ],
+  "result": {
+    "item": "manju_project:reimu_ingot",
+    "count": 9
+  }
+}

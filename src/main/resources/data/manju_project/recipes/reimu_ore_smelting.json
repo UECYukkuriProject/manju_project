@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 2.1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "manju_project:reimu_ore"
+  },
+  "result": "manju_project:reimu_ingot"
+}

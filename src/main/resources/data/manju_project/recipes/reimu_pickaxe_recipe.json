@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "manju_project:reimu_ingot"
+    },
+    "1": {
+      "item": "manju_project:reimu_ingot"
+    },
+    "2": {
+      "item": "manju_project:reimu_ingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "manju_project:reimu_pickaxe",
+    "count": 1
+  }
+}

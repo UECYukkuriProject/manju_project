@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "manju_project:blocks/reimu_ore_block",
+    "particle": "manju_project:blocks/reimu_ore_block"
+  },
+  "render_type": "solid"
+}

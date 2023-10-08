@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "manju_project:items/reimu_hoe"
+  }
+}

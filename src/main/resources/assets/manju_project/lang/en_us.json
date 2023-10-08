@@ -1,4 +1,16 @@
 {
+  "item.manju_project.reimu_pickaxe": "Reimu Pickaxe",
+  "item.manju_project.reimu_sword": "Reimu Sword",
+  "item.manju_project.reimu_shovel": "Reimu Shovel",
+  "block.manju_project.marishablock": "Marishablock",
+  "item.manju_project.reimu_ingot": "Reimu",
+  "item.manju_project.reimu_axe": "Reimu Axe",
+  "item.manju_project.reimu_armor_chestplate": "Reimu Chestplate",
+  "item.manju_project.reimu_armor_helmet": "Reimu Helmet",
   "item.manju_project.max_tool": "Max Tool",
-  "block.manju_project.marishablock": "Marishablock"
+  "block.manju_project.reimu_block": "Block of Reimu",
+  "block.manju_project.reimu_ore": "Reimu Ore",
+  "item.manju_project.reimu_hoe": "Reimu Hoe",
+  "item.manju_project.reimu_armor_boots": "Reimu Boots",
+  "item.manju_project.reimu_armor_leggings": "Reimu Leggings"
 }
