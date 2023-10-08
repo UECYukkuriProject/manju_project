@@ -25,7 +25,6 @@ import net.mcreator.manjuproject.ManjuProjectMod;
 
 public class ManjuProjectModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ManjuProjectMod.MODID);
-	public static final RegistryObject<Item> MARISHABLOCK = block(ManjuProjectModBlocks.MARISHABLOCK, null);
 	public static final RegistryObject<Item> MAX_TOOL = REGISTRY.register("max_tool", () -> new MaxToolItem());
 	public static final RegistryObject<Item> REIMU_INGOT = REGISTRY.register("reimu_ingot", () -> new ReimuIngotItem());
 	public static final RegistryObject<Item> REIMU_ORE = block(ManjuProjectModBlocks.REIMU_ORE, null);
