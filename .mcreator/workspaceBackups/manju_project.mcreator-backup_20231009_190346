@@ -202,6 +202,22 @@
       "registry_name": "reimu_armor_boots_recipe"
     },
     {
+      "name": "LingMeng",
+      "type": "livingentity",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ling_meng",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manjuproject/entity/LingMengEntity.java",
+          "src/main/resources/data/manju_project/forge/biome_modifier/ling_meng_biome_modifier.json",
+          "src/main/java/net/mcreator/manjuproject/client/renderer/LingMengRenderer.java",
+          "src/main/resources/assets/manju_project/models/item/ling_meng_spawn_egg.json"
+        ]
+      }
+    },
+    {
       "name": "Netherite",
       "type": "recipe",
       "sortid": 26,
@@ -226,22 +242,6 @@
           "src/main/resources/data/manju_project/recipes/netheriteget.json"
         ]
       }
-    },
-    {
-      "name": "Reimu",
-      "type": "livingentity",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "reimu",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/manju_project/models/item/reimu_spawn_egg.json",
-          "src/main/resources/data/manju_project/forge/biome_modifier/reimu_biome_modifier.json",
-          "src/main/java/net/mcreator/manjuproject/client/renderer/ReimuRenderer.java",
-          "src/main/java/net/mcreator/manjuproject/entity/ReimuEntity.java"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -251,14 +251,15 @@
       "item.manju_project.reimu_pickaxe": "Reimu Pickaxe",
       "item.manju_project.reimu_sword": "Reimu Sword",
       "item.manju_project.reimu_shovel": "Reimu Shovel",
-      "item.manju_project.reimu_spawn_egg": "Reimu Spawn Egg",
       "item.manju_project.reimu_ingot": "Reimu",
-      "entity.manju_project.reimu": "Reimu",
+      "item.manju_project.ling_meng_spawn_egg": "reimu Spawn Egg",
+      "entity.manju_project.reimu": "reimu",
       "item.manju_project.reimu_axe": "Reimu Axe",
       "item.manju_project.reimu_armor_chestplate": "Reimu Chestplate",
       "item.manju_project.reimu_armor_helmet": "Reimu Helmet",
       "item.manju_project.max_tool": "Max Tool",
       "block.manju_project.reimu_block": "Block of Reimu",
+      "entity.manju_project.ling_meng": "reimu",
       "block.manju_project.reimu_ore": "Reimu Ore",
       "item.manju_project.reimu_hoe": "Reimu Hoe",
       "item.manju_project.reimu_armor_boots": "Reimu Boots",

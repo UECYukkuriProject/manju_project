@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.manjuproject.init.ManjuProjectModItems;
 import net.mcreator.manjuproject.init.ManjuProjectModFeatures;
+import net.mcreator.manjuproject.init.ManjuProjectModEntities;
 import net.mcreator.manjuproject.init.ManjuProjectModBlocks;
 
 import java.util.function.Supplier;
@@ -54,6 +55,7 @@ public class ManjuProjectMod {
 
 		ManjuProjectModBlocks.REGISTRY.register(bus);
 		ManjuProjectModItems.REGISTRY.register(bus);
+		ManjuProjectModEntities.REGISTRY.register(bus);
 
 		ManjuProjectModFeatures.REGISTRY.register(bus);
 

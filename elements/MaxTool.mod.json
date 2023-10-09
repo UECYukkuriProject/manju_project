@@ -21,11 +21,11 @@
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "Items.BOAT"
+        "value": "CUSTOM:Reimu.spawn_egg"
       }
     ],
     "immuneToFire": true,
-    "stayInGridWhenCrafting": true,
+    "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }
 }

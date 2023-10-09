@@ -3,46 +3,46 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 5,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": "Items.NETHERITE_INGOT"
       },
       {
-        "value": "CUSTOM:ReimuAxe"
+        "value": "CUSTOM:ReimuBlock"
       },
       {
         "value": "Items.NETHERITE_INGOT"
       },
       {
-        "value": "CUSTOM:ReimuHoe"
+        "value": "Blocks.IRON_BLOCK"
       },
       {
-        "value": "CUSTOM:ReimuSword"
+        "value": "Items.NETHERITE_INGOT"
       },
       {
-        "value": "CUSTOM:ReimuPickaxe"
+        "value": "Blocks.IRON_BLOCK"
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "Items.NETHERITE_INGOT"
       },
       {
-        "value": "CUSTOM:ReimuShovel"
+        "value": "CUSTOM:ReimuBlock"
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "Items.NETHERITE_INGOT"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MaxTool"
+      "value": "Items.NETHER_STAR"
     },
-    "name": "maxtoolrecipe",
+    "name": "nether_star_get",
     "namespace": "mod"
   }
 }

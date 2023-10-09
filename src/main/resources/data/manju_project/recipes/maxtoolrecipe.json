@@ -2,19 +2,31 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_axe"
+      "item": "minecraft:netherite_ingot"
     },
     {
-      "item": "minecraft:iron_sword"
+      "item": "manju_project:reimu_axe"
     },
     {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:netherite_ingot"
     },
     {
-      "item": "minecraft:iron_hoe"
+      "item": "manju_project:reimu_hoe"
     },
     {
-      "item": "minecraft:iron_shovel"
+      "item": "manju_project:reimu_sword"
+    },
+    {
+      "item": "manju_project:reimu_pickaxe"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "manju_project:reimu_shovel"
+    },
+    {
+      "item": "minecraft:nether_star"
     }
   ],
   "result": {

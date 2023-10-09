@@ -9,40 +9,40 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "CUSTOM:ReimuIngot"
       },
       {
-        "value": "CUSTOM:ReimuAxe"
+        "value": "Items.COPPER_INGOT"
       },
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "CUSTOM:ReimuIngot"
       },
       {
-        "value": "CUSTOM:ReimuHoe"
+        "value": "Items.COPPER_INGOT"
       },
       {
-        "value": "CUSTOM:ReimuSword"
+        "value": "Items.GOLD_INGOT"
       },
       {
-        "value": "CUSTOM:ReimuPickaxe"
+        "value": "Items.COPPER_INGOT"
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "CUSTOM:ReimuIngot"
       },
       {
-        "value": "CUSTOM:ReimuShovel"
+        "value": "Items.COPPER_INGOT"
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "CUSTOM:ReimuIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MaxTool"
+      "value": "Items.NETHERITE_INGOT"
     },
-    "name": "maxtoolrecipe",
+    "name": "netheriteget",
     "namespace": "mod"
   }
 }

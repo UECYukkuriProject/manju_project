@@ -9,14 +9,15 @@
       "registry_name": "max_tool",
       "metadata": {
         "files": [
-          "src/main/resources/assets/manju_project/models/item/max_tool.json",
-          "src/main/java/net/mcreator/manjuproject/item/MaxToolItem.java"
+          "src/main/java/net/mcreator/manjuproject/item/MaxToolItem.java",
+          "src/main/resources/assets/manju_project/models/item/max_tool.json"
         ]
       }
     },
     {
       "name": "Maxtoolrecipe",
       "type": "recipe",
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maxtoolrecipe",
@@ -27,24 +28,9 @@
       }
     },
     {
-      "name": "Marishablock",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "marishablock",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/manju_project/blockstates/marishablock.json",
-          "src/main/resources/assets/manju_project/models/block/marishablock.json",
-          "src/main/resources/assets/manju_project/models/item/marishablock.json",
-          "src/main/java/net/mcreator/manjuproject/block/MarishablockBlock.java"
-        ]
-      }
-    },
-    {
       "name": "ReimuIngot",
       "type": "item",
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reimu_ingot"
@@ -52,6 +38,7 @@
     {
       "name": "ReimuOre",
       "type": "block",
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reimu_ore"
@@ -59,6 +46,7 @@
     {
       "name": "ReimuBlock",
       "type": "block",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reimu_block"
@@ -66,6 +54,7 @@
     {
       "name": "ReimuOreBlockRecipe",
       "type": "recipe",
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reimu_ore_block_recipe"
@@ -73,6 +62,7 @@
     {
       "name": "ReimuBlockOreRecipe",
       "type": "recipe",
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reimu_block_ore_recipe"
@@ -80,6 +70,7 @@
     {
       "name": "ReimuOreSmelting",
       "type": "recipe",
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reimu_ore_smelting"
@@ -87,13 +78,21 @@
     {
       "name": "ReimuPickaxe",
       "type": "tool",
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reimu_pickaxe"
+      "registry_name": "reimu_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manjuproject/item/ReimuPickaxeItem.java",
+          "src/main/resources/assets/manju_project/models/item/reimu_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "ReimuAxe",
       "type": "tool",
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reimu_axe"
@@ -101,6 +100,7 @@
     {
       "name": "ReimuSword",
       "type": "tool",
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reimu_sword"
@@ -108,150 +108,138 @@
     {
       "name": "ReimuShovel",
       "type": "tool",
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reimu_shovel",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/manjuproject/item/ReimuShovelItem.java",
-          "src/main/resources/assets/manju_project/models/item/reimu_shovel.json"
-        ]
-      }
+      "registry_name": "reimu_shovel"
     },
     {
       "name": "ReimuHoe",
       "type": "tool",
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reimu_hoe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/manjuproject/item/ReimuHoeItem.java",
-          "src/main/resources/assets/manju_project/models/item/reimu_hoe.json"
-        ]
-      }
+      "registry_name": "reimu_hoe"
     },
     {
       "name": "ReimuPickaxeRecipe",
       "type": "recipe",
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reimu_pickaxe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/manju_project/recipes/reimu_pickaxe_recipe.json"
-        ]
-      }
+      "registry_name": "reimu_pickaxe_recipe"
     },
     {
       "name": "ReimuAxeRecipe",
       "type": "recipe",
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reimu_axe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/manju_project/recipes/reimu_axe_recipe.json"
-        ]
-      }
+      "registry_name": "reimu_axe_recipe"
     },
     {
       "name": "ReimuSwordRecipe",
       "type": "recipe",
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reimu_sword_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/manju_project/recipes/reimu_sword_recipe.json"
-        ]
-      }
+      "registry_name": "reimu_sword_recipe"
     },
     {
       "name": "ReimuShovelRecipe",
       "type": "recipe",
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reimu_shovel_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/manju_project/recipes/reimu_shovel_recipe.json"
-        ]
-      }
+      "registry_name": "reimu_shovel_recipe"
     },
     {
       "name": "ReimuHoeRecipe",
       "type": "recipe",
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reimu_hoe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/manju_project/recipes/reimu_hoe_recipe.json"
-        ]
-      }
+      "registry_name": "reimu_hoe_recipe"
     },
     {
       "name": "ReimuArmor",
       "type": "armor",
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reimu_armor",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/manjuproject/item/ReimuArmorItem.java",
-          "src/main/resources/assets/manju_project/models/item/reimu_armor_leggings.json",
-          "src/main/resources/assets/manju_project/models/item/reimu_armor_boots.json",
-          "src/main/resources/assets/manju_project/models/item/reimu_armor_helmet.json",
-          "src/main/resources/assets/manju_project/models/item/reimu_armor_chestplate.json"
-        ]
-      }
+      "registry_name": "reimu_armor"
     },
     {
       "name": "ReimuArmorHelmetRecipe",
       "type": "recipe",
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reimu_armor_helmet_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/manju_project/recipes/reimu_armor_helmet_recipe.json"
-        ]
-      }
+      "registry_name": "reimu_armor_helmet_recipe"
     },
     {
       "name": "ReimuArmorChestplateRecipe",
       "type": "recipe",
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reimu_armor_chestplate_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/manju_project/recipes/reimu_armor_chestplate_recipe.json"
-        ]
-      }
+      "registry_name": "reimu_armor_chestplate_recipe"
     },
     {
       "name": "ReimuArmorLeggingsRecipe",
       "type": "recipe",
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reimu_armor_leggings_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/manju_project/recipes/reimu_armor_leggings_recipe.json"
-        ]
-      }
+      "registry_name": "reimu_armor_leggings_recipe"
     },
     {
       "name": "ReimuArmorBootsRecipe",
       "type": "recipe",
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reimu_armor_boots_recipe",
+      "registry_name": "reimu_armor_boots_recipe"
+    },
+    {
+      "name": "LingMeng",
+      "type": "livingentity",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ling_meng",
       "metadata": {
         "files": [
-          "src/main/resources/data/manju_project/recipes/reimu_armor_boots_recipe.json"
+          "src/main/java/net/mcreator/manjuproject/entity/LingMengEntity.java",
+          "src/main/resources/data/manju_project/forge/biome_modifier/ling_meng_biome_modifier.json",
+          "src/main/java/net/mcreator/manjuproject/client/renderer/LingMengRenderer.java",
+          "src/main/resources/assets/manju_project/models/item/ling_meng_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Netherite",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manju_project/recipes/nether_star_get.json"
+        ]
+      }
+    },
+    {
+      "name": "Netheriteget",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheriteget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manju_project/recipes/netheriteget.json"
         ]
       }
     }
@@ -263,13 +251,14 @@
       "item.manju_project.reimu_pickaxe": "Reimu Pickaxe",
       "item.manju_project.reimu_sword": "Reimu Sword",
       "item.manju_project.reimu_shovel": "Reimu Shovel",
-      "block.manju_project.marishablock": "Marishablock",
       "item.manju_project.reimu_ingot": "Reimu",
+      "item.manju_project.ling_meng_spawn_egg": "Ling Meng Spawn Egg",
       "item.manju_project.reimu_axe": "Reimu Axe",
       "item.manju_project.reimu_armor_chestplate": "Reimu Chestplate",
       "item.manju_project.reimu_armor_helmet": "Reimu Helmet",
       "item.manju_project.max_tool": "Max Tool",
       "block.manju_project.reimu_block": "Block of Reimu",
+      "entity.manju_project.ling_meng": "Ling Meng",
       "block.manju_project.reimu_ore": "Reimu Ore",
       "item.manju_project.reimu_hoe": "Reimu Hoe",
       "item.manju_project.reimu_armor_boots": "Reimu Boots",

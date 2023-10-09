@@ -9,8 +9,8 @@
       "registry_name": "max_tool",
       "metadata": {
         "files": [
-          "src/main/resources/assets/manju_project/models/item/max_tool.json",
-          "src/main/java/net/mcreator/manjuproject/item/MaxToolItem.java"
+          "src/main/java/net/mcreator/manjuproject/item/MaxToolItem.java",
+          "src/main/resources/assets/manju_project/models/item/max_tool.json"
         ]
       }
     },
@@ -30,6 +30,7 @@
     {
       "name": "ReimuIngot",
       "type": "item",
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reimu_ingot"
@@ -80,7 +81,13 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "reimu_pickaxe"
+      "registry_name": "reimu_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manjuproject/item/ReimuPickaxeItem.java",
+          "src/main/resources/assets/manju_project/models/item/reimu_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "ReimuAxe",
@@ -157,6 +164,7 @@
     {
       "name": "ReimuArmor",
       "type": "armor",
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reimu_armor"
@@ -192,6 +200,48 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "reimu_armor_boots_recipe"
+    },
+    {
+      "name": "LingMeng",
+      "type": "livingentity",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ling_meng",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manjuproject/entity/LingMengEntity.java",
+          "src/main/resources/data/manju_project/forge/biome_modifier/ling_meng_biome_modifier.json",
+          "src/main/java/net/mcreator/manjuproject/client/renderer/LingMengRenderer.java",
+          "src/main/resources/assets/manju_project/models/item/ling_meng_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Netherite",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manju_project/recipes/nether_star_get.json"
+        ]
+      }
+    },
+    {
+      "name": "Netheriteget",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheriteget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manju_project/recipes/netheriteget.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -202,11 +252,13 @@
       "item.manju_project.reimu_sword": "Reimu Sword",
       "item.manju_project.reimu_shovel": "Reimu Shovel",
       "item.manju_project.reimu_ingot": "Reimu",
-      "item.manju_project.reimu_armor_chestplate": "Reimu Chestplate",
+      "item.manju_project.ling_meng_spawn_egg": "Ling Meng Spawn Egg",
       "item.manju_project.reimu_axe": "Reimu Axe",
+      "item.manju_project.reimu_armor_chestplate": "Reimu Chestplate",
       "item.manju_project.reimu_armor_helmet": "Reimu Helmet",
       "item.manju_project.max_tool": "Max Tool",
       "block.manju_project.reimu_block": "Block of Reimu",
+      "entity.manju_project.ling_meng": "Ling Meng",
       "block.manju_project.reimu_ore": "Reimu Ore",
       "item.manju_project.reimu_hoe": "Reimu Hoe",
       "item.manju_project.reimu_armor_boots": "Reimu Boots",
