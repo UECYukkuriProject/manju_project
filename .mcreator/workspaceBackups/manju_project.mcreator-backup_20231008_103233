@@ -65,69 +65,6 @@
           "src/main/java/net/mcreator/manjuproject/item/ManjudiskItem.java"
         ]
       }
-    },
-    {
-      "name": "ManjuSpawnMachineGUI",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "manju_spawn_machine_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/manjuproject/world/inventory/ManjuSpawnMachineGUIMenu.java",
-          "src/main/java/net/mcreator/manjuproject/client/gui/ManjuSpawnMachineGUIScreen.java"
-        ]
-      }
-    },
-    {
-      "name": "ManjuSpawnMachineBlockOnBlockRightClicked",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "manju_spawn_machine_block_on_block_right_clicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/manjuproject/procedures/ManjuSpawnMachineBlockOnBlockRightClickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "ManjuSpawnMachineBlock",
-      "type": "block",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "manju_spawn_machine_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/manjuproject/block/ManjuSpawnMachineBlockBlock.java",
-          "src/main/resources/assets/manju_project/models/block/manju_spawn_machine_block.json",
-          "src/main/resources/assets/manju_project/models/item/manju_spawn_machine_block.json",
-          "src/main/resources/assets/manju_project/blockstates/manju_spawn_machine_block.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -148,8 +85,7 @@
       "itemGroup.tabmanju_project": "Manju Project",
       "subtitles.reimudiskmusic": "",
       "item.manju_project.manjudisk.desc": "6262",
-      "item.manju_project.manjudisk": "Manjudisk",
-      "block.manju_project.manju_spawn_machine_block": "Manju Spawn Machine Block"
+      "item.manju_project.manjudisk": "Manjudisk"
     }
   },
   "foldersRoot": {

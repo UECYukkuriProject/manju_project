@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Manjudisk",
+    "texture": "manju_disk_texture",
+    "description": "6262",
+    "creativeTab": {
+      "value": "CUSTOM:ManjuProject"
+    },
+    "specialInfo": [],
+    "hasGlow": true,
+    "music": {
+      "value": "CUSTOM:reimudiskmusic"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

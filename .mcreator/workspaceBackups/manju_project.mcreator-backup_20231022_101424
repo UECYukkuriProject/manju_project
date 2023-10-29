@@ -9,8 +9,8 @@
       "registry_name": "max_tool",
       "metadata": {
         "files": [
-          "src/main/resources/assets/manju_project/models/item/max_tool.json",
-          "src/main/java/net/mcreator/manjuproject/item/MaxToolItem.java"
+          "src/main/java/net/mcreator/manjuproject/item/MaxToolItem.java",
+          "src/main/resources/assets/manju_project/models/item/max_tool.json"
         ]
       }
     },
@@ -36,19 +36,69 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/manju_project/blockstates/marishablock.json",
-          "src/main/resources/assets/manju_project/models/block/marishablock.json",
+          "src/main/java/net/mcreator/manjuproject/block/MarishablockBlock.java",
           "src/main/resources/assets/manju_project/models/item/marishablock.json",
-          "src/main/java/net/mcreator/manjuproject/block/MarishablockBlock.java"
+          "src/main/resources/assets/manju_project/models/block/marishablock.json"
+        ]
+      }
+    },
+    {
+      "name": "ManjuProject",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manju_project",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Manjudisk",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manjudisk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/manju_project/models/item/manjudisk.json",
+          "src/main/java/net/mcreator/manjuproject/item/ManjudiskItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ManjuSpawnMachineGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manju_spawn_machine_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manjuproject/world/inventory/ManjuSpawnMachineGUIMenu.java",
+          "src/main/java/net/mcreator/manjuproject/client/gui/ManjuSpawnMachineGUIScreen.java"
         ]
       }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "reimudiskmusic",
+      "files": [
+        "reimudisk"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.manju_project.max_tool": "Max Tool",
-      "block.manju_project.marishablock": "Marishablock"
+      "block.manju_project.marishablock": "Marishablock",
+      "itemGroup.tabmanju_project": "Manju Project",
+      "subtitles.reimudiskmusic": "",
+      "item.manju_project.manjudisk.desc": "6262",
+      "item.manju_project.manjudisk": "Manjudisk"
     }
   },
   "foldersRoot": {

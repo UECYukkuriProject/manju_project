@@ -112,22 +112,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "ManjuSpawnMachineBlock",
-      "type": "block",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "manju_spawn_machine_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/manjuproject/block/ManjuSpawnMachineBlockBlock.java",
-          "src/main/resources/assets/manju_project/models/block/manju_spawn_machine_block.json",
-          "src/main/resources/assets/manju_project/models/item/manju_spawn_machine_block.json",
-          "src/main/resources/assets/manju_project/blockstates/manju_spawn_machine_block.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -148,8 +132,7 @@
       "itemGroup.tabmanju_project": "Manju Project",
       "subtitles.reimudiskmusic": "",
       "item.manju_project.manjudisk.desc": "6262",
-      "item.manju_project.manjudisk": "Manjudisk",
-      "block.manju_project.manju_spawn_machine_block": "Manju Spawn Machine Block"
+      "item.manju_project.manjudisk": "Manjudisk"
     }
   },
   "foldersRoot": {

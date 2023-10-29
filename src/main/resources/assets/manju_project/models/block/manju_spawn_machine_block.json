@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "manju_project:blocks/manjuspawnmachinetexture",
+    "particle": "manju_project:blocks/manjuspawnmachinetexture"
+  },
+  "render_type": "solid"
+}

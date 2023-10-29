@@ -1,0 +1,10 @@
+{
+  "reimudiskmusic": {
+    "sounds": [
+      {
+        "name": "manju_project:reimudisk",
+        "stream": true
+      }
+    ]
+  }
+}

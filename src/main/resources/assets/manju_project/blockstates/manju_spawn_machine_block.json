@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "manju_project:block/manju_spawn_machine_block"
+    }
+  }
+}

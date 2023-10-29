@@ -29,6 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.manjuproject.init.ManjuProjectModTabs;
+import net.mcreator.manjuproject.init.ManjuProjectModSounds;
+import net.mcreator.manjuproject.init.ManjuProjectModMenus;
 import net.mcreator.manjuproject.init.ManjuProjectModItems;
 import net.mcreator.manjuproject.init.ManjuProjectModBlocks;
 
@@ -48,11 +51,13 @@ public class ManjuProjectMod {
 
 	public ManjuProjectMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		ManjuProjectModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		ManjuProjectModSounds.REGISTRY.register(bus);
 		ManjuProjectModBlocks.REGISTRY.register(bus);
 		ManjuProjectModItems.REGISTRY.register(bus);
+
+		ManjuProjectModMenus.REGISTRY.register(bus);
 
 	}
 
