@@ -30,7 +30,7 @@
       "name": "Marishablock",
       "type": "block",
       "sortid": 1,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "marishablock",
       "metadata": {
@@ -48,7 +48,7 @@
       "name": "ManjuSpawnMachineBlock",
       "type": "block",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "manju_spawn_machine_block",
       "metadata": {
@@ -64,7 +64,7 @@
       "name": "Manjudisk",
       "type": "musicdisc",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "manjudisk",
       "metadata": {
@@ -87,7 +87,7 @@
     {
       "name": "ManjuSpawnMachineGUI",
       "type": "gui",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "manju_spawn_machine_gui",
       "metadata": {
@@ -100,7 +100,7 @@
     {
       "name": "ManjuSpawnMachineBlockOnBlockRightClicked",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "manju_spawn_machine_block_on_block_right_clicked",
       "metadata": {
