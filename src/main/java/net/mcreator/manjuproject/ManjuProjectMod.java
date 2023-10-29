@@ -33,6 +33,7 @@ import net.mcreator.manjuproject.init.ManjuProjectModTabs;
 import net.mcreator.manjuproject.init.ManjuProjectModSounds;
 import net.mcreator.manjuproject.init.ManjuProjectModMenus;
 import net.mcreator.manjuproject.init.ManjuProjectModItems;
+import net.mcreator.manjuproject.init.ManjuProjectModFeatures;
 import net.mcreator.manjuproject.init.ManjuProjectModBlocks;
 
 import java.util.function.Supplier;
@@ -56,6 +57,8 @@ public class ManjuProjectMod {
 		ManjuProjectModSounds.REGISTRY.register(bus);
 		ManjuProjectModBlocks.REGISTRY.register(bus);
 		ManjuProjectModItems.REGISTRY.register(bus);
+
+		ManjuProjectModFeatures.REGISTRY.register(bus);
 
 		ManjuProjectModMenus.REGISTRY.register(bus);
 
