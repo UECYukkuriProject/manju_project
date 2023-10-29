@@ -1,5 +1,9 @@
 {
   "item.manju_project.max_tool": "Max Tool",
   "block.manju_project.marishablock": "Marishablock",
-  "subtitles.reimudiskmusic": ""
+  "itemGroup.tabmanju_project": "Manju Project",
+  "subtitles.reimudiskmusic": "",
+  "item.manju_project.manjudisk.desc": "6262",
+  "block.manju_project.manju_spawn_machine_block": "Manju Spawn Machine Block",
+  "item.manju_project.manjudisk": "Manjudisk"
 }

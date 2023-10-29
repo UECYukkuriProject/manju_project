@@ -35,21 +35,29 @@
       "registry_name": "marishablock",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/manjuproject/world/features/ores/MarishablockFeature.java",
           "src/main/resources/assets/manju_project/blockstates/marishablock.json",
           "src/main/java/net/mcreator/manjuproject/block/MarishablockBlock.java",
+          "src/main/resources/data/manju_project/forge/biome_modifier/marishablock_biome_modifier.json",
           "src/main/resources/assets/manju_project/models/item/marishablock.json",
           "src/main/resources/assets/manju_project/models/block/marishablock.json"
         ]
       }
     },
     {
-      "name": "ManjuProject",
-      "type": "tab",
+      "name": "ManjuSpawnMachineBlock",
+      "type": "block",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "manju_project",
+      "registry_name": "manju_spawn_machine_block",
       "metadata": {
-        "files": []
+        "files": [
+          "src/main/java/net/mcreator/manjuproject/block/ManjuSpawnMachineBlockBlock.java",
+          "src/main/resources/assets/manju_project/models/block/manju_spawn_machine_block.json",
+          "src/main/resources/assets/manju_project/models/item/manju_spawn_machine_block.json",
+          "src/main/resources/assets/manju_project/blockstates/manju_spawn_machine_block.json"
+        ]
       }
     },
     {
@@ -64,6 +72,16 @@
           "src/main/resources/assets/manju_project/models/item/manjudisk.json",
           "src/main/java/net/mcreator/manjuproject/item/ManjudiskItem.java"
         ]
+      }
+    },
+    {
+      "name": "ManjuProject",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manju_project",
+      "metadata": {
+        "files": []
       }
     },
     {
@@ -132,6 +150,7 @@
       "itemGroup.tabmanju_project": "Manju Project",
       "subtitles.reimudiskmusic": "",
       "item.manju_project.manjudisk.desc": "6262",
+      "block.manju_project.manju_spawn_machine_block": "Manju Spawn Machine Block",
       "item.manju_project.manjudisk": "Manjudisk"
     }
   },
