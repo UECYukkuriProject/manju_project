@@ -1,6 +1,8 @@
 
 package net.mcreator.manjuproject.block;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraftforge.common.IPlantable;
@@ -10,8 +12,8 @@ import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.FallingBlock;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.TooltipFlag;
@@ -25,13 +27,13 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class MarishablockBlock extends FallingBlock {
+public class MarishablockBlock extends Block {
 	public MarishablockBlock() {
 		super(BlockBehaviour.Properties.of(Material.EXPLOSIVE, MaterialColor.FIRE)
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.basalt_deltas.loop")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.hanging_roots.fall")),
 						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.nether_wastes.loop")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.cave")),
 						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.glass.place"))))
-				.strength(-1, 3600000).friction(1f).jumpFactor(101f));
+				.strength(-1, 3600000).lightLevel(s -> 13).friction(1f).speedFactor(130.7f).jumpFactor(111f));
 	}
 
 	@Override

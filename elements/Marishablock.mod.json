@@ -39,7 +39,7 @@
     ],
     "hardness": 1.0,
     "resistance": 10.0,
-    "hasGravity": true,
+    "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "No creative tab entry"
@@ -79,8 +79,8 @@
     "fireSpreadSpeed": 50,
     "isLadder": true,
     "slipperiness": 0.999999999999,
-    "speedFactor": 1.0,
-    "jumpFactor": 101.0,
+    "speedFactor": 130.7,
+    "jumpFactor": 111.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": true,
@@ -102,7 +102,7 @@
     "stepSound": {
       "value": "block.hanging_roots.fall"
     },
-    "luminance": 0,
+    "luminance": 13,
     "unbreakable": true,
     "breakHarvestLevel": 1,
     "isBonemealable": false,
