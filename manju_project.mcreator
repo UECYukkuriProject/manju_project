@@ -27,19 +27,6 @@
       }
     },
     {
-      "name": "DirtBlocks",
-      "type": "tag",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dirt_blocks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
-        ]
-      }
-    },
-    {
       "name": "LogBlocks",
       "type": "tag",
       "sortid": 3,
@@ -49,6 +36,40 @@
       "metadata": {
         "files": [
           "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      }
+    },
+    {
+      "name": "Marirrei",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marirrei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manju_project/forge/biome_modifier/marirrei_biome_modifier.json",
+          "src/main/java/net/mcreator/manjuproject/entity/MarirreiEntity.java",
+          "src/main/java/net/mcreator/manjuproject/client/renderer/MarirreiRenderer.java",
+          "src/main/resources/assets/manju_project/models/item/marirrei_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Marisshablocccccccccccck",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marisshablocccccccccccck",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/manju_project/models/block/marisshablocccccccccccck.json",
+          "src/main/java/net/mcreator/manjuproject/block/MarisshablocccccccccccckBlock.java",
+          "src/main/resources/assets/manju_project/blockstates/marisshablocccccccccccck.json",
+          "src/main/resources/data/manju_project/forge/biome_modifier/marisshablocccccccccccck_biome_modifier.json",
+          "src/main/resources/assets/manju_project/models/item/marisshablocccccccccccck.json",
+          "src/main/java/net/mcreator/manjuproject/world/features/ores/MarisshablocccccccccccckFeature.java"
         ]
       }
     },
@@ -97,49 +118,125 @@
       }
     },
     {
-      "name": "Marirrei",
-      "type": "livingentity",
-      "sortid": 6,
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "marirrei",
+      "registry_name": "dirt_blocks",
       "metadata": {
         "files": [
-          "src/main/resources/data/manju_project/forge/biome_modifier/marirrei_biome_modifier.json",
-          "src/main/java/net/mcreator/manjuproject/entity/MarirreiEntity.java",
-          "src/main/java/net/mcreator/manjuproject/client/renderer/MarirreiRenderer.java",
-          "src/main/resources/assets/manju_project/models/item/marirrei_spawn_egg.json"
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
         ]
       }
     },
     {
-      "name": "Marisshablocccccccccccck",
+      "name": "ManjuSpawnMachineBlock",
       "type": "block",
-      "sortid": 7,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "marisshablocccccccccccck",
+      "registry_name": "manju_spawn_machine_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/manju_project/models/block/marisshablocccccccccccck.json",
-          "src/main/java/net/mcreator/manjuproject/block/MarisshablocccccccccccckBlock.java",
-          "src/main/resources/assets/manju_project/blockstates/marisshablocccccccccccck.json",
-          "src/main/resources/data/manju_project/forge/biome_modifier/marisshablocccccccccccck_biome_modifier.json",
-          "src/main/resources/assets/manju_project/models/item/marisshablocccccccccccck.json",
-          "src/main/java/net/mcreator/manjuproject/world/features/ores/MarisshablocccccccccccckFeature.java"
+          "src/main/java/net/mcreator/manjuproject/block/ManjuSpawnMachineBlockBlock.java",
+          "src/main/resources/assets/manju_project/models/block/manju_spawn_machine_block.json",
+          "src/main/resources/assets/manju_project/models/item/manju_spawn_machine_block.json",
+          "src/main/resources/assets/manju_project/blockstates/manju_spawn_machine_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Manjudisk",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manjudisk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/manju_project/models/item/manjudisk.json",
+          "src/main/java/net/mcreator/manjuproject/item/ManjudiskItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ManjuProject",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manju_project",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ManjuSpawnMachineGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manju_spawn_machine_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manjuproject/world/inventory/ManjuSpawnMachineGUIMenu.java",
+          "src/main/java/net/mcreator/manjuproject/client/gui/ManjuSpawnMachineGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "ManjuSpawnMachineBlockOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manju_spawn_machine_block_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manjuproject/procedures/ManjuSpawnMachineBlockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "reimudiskmusic",
+      "files": [
+        "reimudisk"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
-      "block.manju_project.marisshablocccccccccccck": "Marisshablocccccccccccck",
       "item.manju_project.max_tool": "Max Tool",
-      "item.manju_project.reeeeeeeeeimu": "Reeeeeeeeeimu",
-      "item.manju_project.marirrei_spawn_egg": "Marirrei Spawn Egg",
-      "entity.manju_project.marirrei": "Marirrei"
+      "itemGroup.tabmanju_project": "Manju Project",
+      "subtitles.reimudiskmusic": "",
+      "item.manju_project.manjudisk.desc": "6262",
+      "block.manju_project.manju_spawn_machine_block": "Manju Spawn Machine Block",
+      "item.manju_project.manjudisk": "Manjudisk"
     }
   },
   "foldersRoot": {

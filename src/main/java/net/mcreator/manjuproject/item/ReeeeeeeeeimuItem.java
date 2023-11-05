@@ -1,26 +1,7 @@
 
 package net.mcreator.manjuproject.item;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.network.chat.Component;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.manjuproject.procedures.ReeeeeeeeeimuburotukugaturudePoHuaisaretatokiProcedure;
-
-import java.util.List;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class ReeeeeeeeeimuItem extends PickaxeItem {
 	public ReeeeeeeeeimuItem() {
@@ -54,7 +35,7 @@ public class ReeeeeeeeeimuItem extends PickaxeItem {
 	@Override
 	public boolean mineBlock(ItemStack itemstack, Level world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
 		boolean retval = super.mineBlock(itemstack, world, blockstate, pos, entity);
-		ReeeeeeeeeimuburotukugaturudePoHuaisaretatokiProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		ReeeeeeeeeimuburotukugaturudePoHuaisaretatokiProcedure.execute();
 		return retval;
 	}
 
