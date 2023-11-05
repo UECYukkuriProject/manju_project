@@ -27,6 +27,24 @@
       }
     },
     {
+      "name": "Marishablock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marishablock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/manju_project/blockstates/marishablock.json",
+          "src/main/resources/assets/manju_project/models/block/marishablock.json",
+          "src/main/java/net/mcreator/manjuproject/world/features/ores/MarishablockFeature.java",
+          "src/main/resources/data/manju_project/forge/biome_modifier/marishablock_biome_modifier.json",
+          "src/main/resources/assets/manju_project/models/item/marishablock.json",
+          "src/main/java/net/mcreator/manjuproject/block/MarishablockBlock.java"
+        ]
+      }
+    },
+    {
       "name": "LogBlocks",
       "type": "tag",
       "sortid": 3,
@@ -74,6 +92,36 @@
       }
     },
     {
+      "name": "ManjuSpawnMachineBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manju_spawn_machine_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manjuproject/block/ManjuSpawnMachineBlockBlock.java",
+          "src/main/resources/assets/manju_project/models/block/manju_spawn_machine_block.json",
+          "src/main/resources/assets/manju_project/models/item/manju_spawn_machine_block.json",
+          "src/main/resources/assets/manju_project/blockstates/manju_spawn_machine_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Manjudisk",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manjudisk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/manju_project/models/item/manjudisk.json",
+          "src/main/java/net/mcreator/manjuproject/item/ManjudiskItem.java"
+        ]
+      }
+    },
+    {
       "name": "Reeeeeeeeeimu",
       "type": "tool",
       "sortid": 5,
@@ -85,6 +133,16 @@
           "src/main/java/net/mcreator/manjuproject/item/ReeeeeeeeeimuItem.java",
           "src/main/resources/assets/manju_project/models/item/reeeeeeeeeimu.json"
         ]
+      }
+    },
+    {
+      "name": "ManjuProject",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manju_project",
+      "metadata": {
+        "files": []
       }
     },
     {
@@ -119,59 +177,6 @@
       }
     },
     {
-      "name": "DirtBlocks",
-      "type": "tag",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dirt_blocks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
-        ]
-      }
-    },
-    {
-      "name": "ManjuSpawnMachineBlock",
-      "type": "block",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "manju_spawn_machine_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/manjuproject/block/ManjuSpawnMachineBlockBlock.java",
-          "src/main/resources/assets/manju_project/models/block/manju_spawn_machine_block.json",
-          "src/main/resources/assets/manju_project/models/item/manju_spawn_machine_block.json",
-          "src/main/resources/assets/manju_project/blockstates/manju_spawn_machine_block.json"
-        ]
-      }
-    },
-    {
-      "name": "Manjudisk",
-      "type": "musicdisc",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "manjudisk",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/manju_project/models/item/manjudisk.json",
-          "src/main/java/net/mcreator/manjuproject/item/ManjudiskItem.java"
-        ]
-      }
-    },
-    {
-      "name": "ManjuProject",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "manju_project",
-      "metadata": {
-        "files": []
-      }
-    },
-    {
       "name": "ManjuSpawnMachineGUI",
       "type": "gui",
       "compiles": true,
@@ -181,6 +186,19 @@
         "files": [
           "src/main/java/net/mcreator/manjuproject/world/inventory/ManjuSpawnMachineGUIMenu.java",
           "src/main/java/net/mcreator/manjuproject/client/gui/ManjuSpawnMachineGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
         ]
       }
     },

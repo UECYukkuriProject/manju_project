@@ -1,0 +1,79 @@
+{
+  "mod_elements": [
+    {
+      "name": "MaxTool",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "max_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manjuproject/item/MaxToolItem.java",
+          "src/main/resources/assets/manju_project/models/item/max_tool.json"
+        ]
+      }
+    },
+    {
+      "name": "Maxtoolrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maxtoolrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/manju_project/recipes/maxtoolrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Marishablock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marishablock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manjuproject/world/features/ores/MarishablockFeature.java",
+          "src/main/resources/assets/manju_project/blockstates/marishablock.json",
+          "src/main/java/net/mcreator/manjuproject/block/MarishablockBlock.java",
+          "src/main/resources/data/manju_project/forge/biome_modifier/marishablock_biome_modifier.json",
+          "src/main/resources/assets/manju_project/models/item/marishablock.json",
+          "src/main/resources/assets/manju_project/models/block/marishablock.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.manju_project.max_tool": "Max Tool",
+      "block.manju_project.marishablock": "Marishablock"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "manju_project",
+    "modName": "饅頭プロジェクト",
+    "version": "1.0.0",
+    "author": "yokohama, MCreator,TRUENO",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.manjuproject",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
