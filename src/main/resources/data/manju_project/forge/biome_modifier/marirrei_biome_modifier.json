@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "manju_project:marirrei",
+    "weight": 20,
+    "minCount": 1000,
+    "maxCount": 1000
+  }
+}

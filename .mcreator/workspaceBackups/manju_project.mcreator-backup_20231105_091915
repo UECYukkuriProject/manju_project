@@ -43,6 +43,76 @@
           "src/main/java/net/mcreator/manjuproject/block/MarishablockBlock.java"
         ]
       }
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
+        ]
+      }
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      }
+    },
+    {
+      "name": "Reeeeeeeeeimu",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reeeeeeeeeimu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manjuproject/item/ReeeeeeeeeimuItem.java",
+          "src/main/resources/assets/manju_project/models/item/reeeeeeeeeimu.json"
+        ]
+      }
+    },
+    {
+      "name": "ReeeeeeeeeimuburotukugaturudePoHuaisaretatoki",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reeeeeeeeeimuburotukugaturude_po_huaisaretatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manjuproject/procedures/ReeeeeeeeeimuburotukugaturudePoHuaisaretatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -50,6 +120,7 @@
   "language_map": {
     "en_us": {
       "item.manju_project.max_tool": "Max Tool",
+      "item.manju_project.reeeeeeeeeimu": "Reeeeeeeeeimu",
       "block.manju_project.marishablock": "Marishablock"
     }
   },

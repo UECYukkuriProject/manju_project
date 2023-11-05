@@ -9,5 +9,5 @@
     "west": "manju_project:blocks/ling_meng_",
     "particle": "manju_project:blocks/ling_meng_"
   },
-  "render_type": "solid"
+  "render_type": "translucent"
 }

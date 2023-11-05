@@ -10,10 +10,10 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.manjuproject.block.MarishablockBlock;
+import net.mcreator.manjuproject.block.MarisshablocccccccccccckBlock;
 import net.mcreator.manjuproject.ManjuProjectMod;
 
 public class ManjuProjectModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, ManjuProjectMod.MODID);
-	public static final RegistryObject<Block> MARISHABLOCK = REGISTRY.register("marishablock", () -> new MarishablockBlock());
+	public static final RegistryObject<Block> MARISSHABLOCCCCCCCCCCCCK = REGISTRY.register("marisshablocccccccccccck", () -> new MarisshablocccccccccccckBlock());
 }

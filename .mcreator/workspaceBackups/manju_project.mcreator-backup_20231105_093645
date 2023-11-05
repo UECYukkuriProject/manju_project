@@ -111,31 +111,12 @@
           "src/main/resources/assets/manju_project/models/item/marirrei_spawn_egg.json"
         ]
       }
-    },
-    {
-      "name": "Marisshablocccccccccccck",
-      "type": "block",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "marisshablocccccccccccck",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/manju_project/models/block/marisshablocccccccccccck.json",
-          "src/main/java/net/mcreator/manjuproject/block/MarisshablocccccccccccckBlock.java",
-          "src/main/resources/assets/manju_project/blockstates/marisshablocccccccccccck.json",
-          "src/main/resources/data/manju_project/forge/biome_modifier/marisshablocccccccccccck_biome_modifier.json",
-          "src/main/resources/assets/manju_project/models/item/marisshablocccccccccccck.json",
-          "src/main/java/net/mcreator/manjuproject/world/features/ores/MarisshablocccccccccccckFeature.java"
-        ]
-      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.manju_project.marisshablocccccccccccck": "Marisshablocccccccccccck",
       "item.manju_project.max_tool": "Max Tool",
       "item.manju_project.reeeeeeeeeimu": "Reeeeeeeeeimu",
       "item.manju_project.marirrei_spawn_egg": "Marirrei Spawn Egg",

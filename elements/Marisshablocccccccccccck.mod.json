@@ -15,12 +15,12 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "ling_meng_",
+    "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": true,
     "hasTransparency": false,
-    "connectedSides": true,
-    "transparencyType": "SOLID",
+    "connectedSides": false,
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -33,34 +33,34 @@
         "subtract": false
       }
     ],
-    "name": "Marishablock",
+    "name": "Marisshablocccccccccccck",
     "specialInfo": [
-      "ゆっくり霊夢だぜ（まりしゃ）"
+      "魔理沙による霊夢のためのチルノ"
     ],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 10000.0,
+    "resistance": 10000.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "MISC"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "hoe",
     "customDrop": {
-      "value": "Blocks.DIAMOND_ORE"
+      "value": ""
     },
-    "dropAmount": 3,
+    "dropAmount": 64,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
-    "enchantPowerBonus": 15.0,
+    "enchantPowerBonus": 0.0,
     "plantsGrowOn": true,
-    "canRedstoneConnect": true,
+    "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "TNT"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
-    "isReplaceable": false,
+    "isReplaceable": true,
     "canProvidePower": false,
     "emittedRedstonePower": {
       "fixedValue": 15.0
@@ -71,39 +71,35 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "beaconColorModifier": {
-      "value": -3394561,
-      "falpha": 0.0
-    },
-    "flammability": 10,
-    "fireSpreadSpeed": 50,
-    "isLadder": true,
-    "slipperiness": 0.999999999999,
-    "speedFactor": 130.7,
-    "jumpFactor": 111.0,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 5.0,
+    "speedFactor": 1000.0,
+    "jumpFactor": 1000.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": true,
+    "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "GLASS"
     },
     "breakSound": {
-      "value": "ambient.basalt_deltas.loop"
+      "value": ""
     },
     "fallSound": {
-      "value": "block.glass.place"
+      "value": ""
     },
     "hitSound": {
-      "value": "ambient.cave"
+      "value": ""
     },
     "placeSound": {
-      "value": "ambient.nether_wastes.loop"
+      "value": ""
     },
     "stepSound": {
-      "value": "block.hanging_roots.fall"
+      "value": ""
     },
-    "luminance": 13,
-    "unbreakable": true,
+    "luminance": 15,
+    "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": false,
     "hasInventory": false,
@@ -141,12 +137,15 @@
         "value": "Blocks.STONE#5"
       },
       {
-        "value": "Blocks.GRASS"
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "Blocks.IRON_ORE"
       }
     ],
-    "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 33,
+    "generationShape": "TRIANGLE",
+    "frequencyPerChunks": 64,
+    "frequencyOnChunk": 64,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }

@@ -1,0 +1,36 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "reeeee",
+    "customModelName": "Normal",
+    "name": "Reeeeeeeeeimu",
+    "specialInfo": [
+      "subarasiiiiii!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    ],
+    "creativeTab": {
+      "value": "DECORATIONS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 1,
+    "efficiency": 10100.0,
+    "attackSpeed": 100.0,
+    "enchantability": 2,
+    "damageVsEntity": 100000.0,
+    "usageCount": 1,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Items.EXPERIENCE_BOTTLE"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": true,
+    "onBlockDestroyedWithTool": {
+      "name": "ReeeeeeeeeimuburotukugaturudePoHuaisaretatoki"
+    }
+  }
+}
